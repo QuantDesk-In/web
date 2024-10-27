@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuantDesk Private Limited</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="hero-section">
+        <div class="overlay">
+            <nav class="navbar">
+                <div class="logo">QuantDesk</div>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero-content">
+                <h1>Empowering Financial Decisions with Technology</h1>
+                <p>Innovative solutions to optimize your trading and investment strategies.</p>
+                <a href="#get-started" class="cta-button">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="container">
+            <h2>Why QuantDesk?</h2>
+            <p class="about-description">
+                At QuantDesk, we are transforming the way traders and investors make decisions. Our AI-driven tools and
+                quantitative analytics empower you to optimize your trading strategies and maximize returns with
+                confidence.
+            </p>
+            <div class="features">
+                <div class="feature-item">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>AI-driven Financial Tools</h3>
+                    <p>Leverage advanced AI algorithms to make data-driven trading decisions in real time.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-cogs"></i>
+                    <h3>Quantitative Analytics</h3>
+                    <p>Our powerful analytics platform provides you with actionable insights and market trends.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-user-shield"></i>
+                    <h3>Personalized Trading Platforms</h3>
+                    <p>Custom-built platforms tailored to your unique trading style and requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-logo">
+                <h3>QuantDesk</h3>
+            </div>
+            <ul class="footer-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="footer-copyright">
+                &copy; 2024 QuantDesk Private Limited. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
